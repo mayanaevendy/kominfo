@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.heading h2{
+      color:#fff;
+      text-align: center;
+      padding: 12px;
+      font-size: 30px;
+      background-color: #dc72ad ;
+      border: solid;
+      border-radius: 20px;
+      width: 90%;
+      
+  }
+.heading{
+    padding:20px 10px;
+    display:inline-table;
+    width: 90%;
+   
+}
+
+
+.lesson{
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+.content{
+    height: 100%;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    /*background-color:burlywood;*/
+}
+/*.isi-content{
+    text-align: center;
+    font-size: 20px;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: block;
+    margin: auto;
+    background-color: cornflowerblue;
+    height: 300px;
+    width:300px;
+    overflow: hidden;untuk mengatur tulisan agar tidak keluar dari div
+
+}*/
+
+.isi-content{
+    float: left;
+   
+}
+.isi-content p{
+    top: 44%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 20px;
+    color: black;
+    padding-left: 20px;
+    
+}
+
+.nama{[
+    margin-top: 40px;
+]}
+
+.clear{
+    clear: left;
+}
+
+.lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
+  }
+
+
+/*untuk web*/
+@media(max-width: 1000px){
+    .isi-content{
+        width: 25%;
+    }
+}
+
+/*untuk hp*/
+@media(max-width: 678px){
+    .isi-content{
+        width: 100%;
+    }
+}
